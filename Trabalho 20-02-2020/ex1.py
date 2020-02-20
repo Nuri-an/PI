@@ -2,7 +2,7 @@ import random
 
 sorteio = random.randint(0,20)
 
-print(sorteio)
+#print(sorteio)
 
 numero = int(input("Escolha um numero entre 0 e 20: "))
     
