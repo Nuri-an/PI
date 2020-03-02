@@ -2,19 +2,19 @@ import random
 
 sorteio = random.randint(0,20)
 
-#print(sorteio)
+print(sorteio)
 
-numero = input("Escolha um numero entre 1 e 20: ")
+numero = int(input("Escolha um numero entre 0 e 20: "))
     
-while(numero != str(sorteio)):
+while(numero != sorteio):
 
-    if(numero > str(sorteio)):
+    if(numero > sorteio):
         print("Numero muito alto")
-    if(numero < str(sorteio)):
+    if(numero < sorteio):
         print("Numero muito baixo")
         
-    numero = input("Escolha um numero entre 1 e 20: ")
+    numero = int(input("Escolha um numero entre 1 e 20: "))
 
-if(numero == str(sorteio)):
+if(numero == sorteio):
     print("Parabens, voce acertou")
 
